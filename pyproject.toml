@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interlace_pdfs"
+description = "Interlace PDFS into single file"
+authors = [
+  {name = "David Faden", email = "dfaden@gmail.com"},
+]
+version = "0.1.0"
+license = {text = "MIT License"}
+dependencies = ["PyPDF2"]
